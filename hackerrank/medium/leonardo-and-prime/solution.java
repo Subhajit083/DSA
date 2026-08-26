@@ -17,7 +17,7 @@ class Result {
 
     public static int primeCount(long n) {
     // Write your code here
-    int[] primes={2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59};
+    int[] primes={2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53};
     int count=0;
     long product =1;
     for(int i:primes){
