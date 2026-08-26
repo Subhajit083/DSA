@@ -42,7 +42,7 @@ Each of the next $q$ lines contains a single integer, $n$.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T16:14:43.287Z  
+**Submitted:** 2026-08-26T16:16:42.233Z  
 
 ```java
 import java.io.*;
@@ -64,7 +64,7 @@ class Result {
 
     public static int primeCount(long n) {
     // Write your code here
-    int[] primes={2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59};
+    int[] primes={2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53};
     int count=0;
     long product =1;
     for(int i:primes){
