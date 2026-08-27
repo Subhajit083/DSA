@@ -63,7 +63,7 @@ Case 2 : There are 2 board members, so 1 handshake takes place.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T15:12:48.842Z  
+**Submitted:** 2026-08-27T04:32:58.628Z  
 
 ```java
 import java.io.*;
@@ -85,7 +85,7 @@ class Result {
 
     public static int handshake(int n) {
     // Write your code here
-return (n*(n-1))/2;
+    return (n*(n-1))/2;
     }
 
 }
