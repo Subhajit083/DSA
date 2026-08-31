@@ -25,7 +25,7 @@ Print an integer denoting the best divisor of $n$.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T05:24:13.876Z  
+**Submitted:** 2026-08-31T15:12:11.239Z  
 
 ```java
 import java.io.*;
@@ -60,6 +60,7 @@ public class Solution {
             }
         }
         System.out.println(best);
+
 
         bufferedReader.close();
     }
