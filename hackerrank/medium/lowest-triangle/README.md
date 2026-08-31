@@ -44,7 +44,7 @@ There are two space-separated integers $b$ and $a$, on a single line.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T15:23:58.700Z  
+**Submitted:** 2026-08-31T15:07:46.159Z  
 
 ```java
 import java.io.*;
