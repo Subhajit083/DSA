@@ -42,7 +42,7 @@ Each of the next $q$ lines contains a single integer, $n$.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T16:16:42.233Z  
+**Submitted:** 2026-08-31T15:08:32.568Z  
 
 ```java
 import java.io.*;
