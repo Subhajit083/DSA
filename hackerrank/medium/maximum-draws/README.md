@@ -61,7 +61,7 @@ Case 2 : 2 colors of socks are in the drawer. The first two removed may not matc
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T14:59:06.970Z  
+**Submitted:** 2026-08-31T15:07:07.188Z  
 
 ```java
 import java.io.*;
