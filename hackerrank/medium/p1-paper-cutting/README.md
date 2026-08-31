@@ -29,7 +29,7 @@ Print a long integer denoting the minimum number of cuts needed to cut the entir
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T15:35:49.251Z  
+**Submitted:** 2026-08-31T15:09:06.346Z  
 
 ```java
 import java.io.*;
