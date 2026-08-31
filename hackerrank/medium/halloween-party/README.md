@@ -54,7 +54,7 @@ For the second test case, where $K = 6$, you need $3$ horizontal and $3$ vertica
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T14:00:21.013Z  
+**Submitted:** 2026-08-31T14:02:21.792Z  
 
 ```java
 import java.io.*;
