@@ -17,7 +17,7 @@ class Result {
 
     public static int handshake(int n) {
     // Write your code here
-    return (n*(n-1))/2;
+return (n*(n-1))/2;
     }
 
 }
