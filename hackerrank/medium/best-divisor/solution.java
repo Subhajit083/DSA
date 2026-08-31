@@ -31,6 +31,7 @@ public class Solution {
         }
         System.out.println(best);
 
+
         bufferedReader.close();
     }
 }
