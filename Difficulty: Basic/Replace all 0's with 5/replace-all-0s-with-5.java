@@ -1,20 +1,21 @@
 class Solution {
-    public int convertFive(int n) {
-        // code here
-        if (n==0){
-            return 5;
-        }
-        int ans=0;
-        int placeValue=1;
-        while(n>0){
+    int reverse(int n){
+        int rev=0;
+        while(n!=0){
             int digit =n%10;
+            n/=10;
             if(digit==0){
                 digit=5;
             }
-            ans+=digit*placeValue;
-            placeValue*=10;
-            n/=10;
+            rev=rev*10+digit;
         }
-        return ans;
+        return rev;
     }
+    public int convertFive(int n) {
+        // code here
+        if(n==0) return 5;
+        int x=reverse(n);
+        return reverse(x);
+       
+}
 }
