@@ -50,19 +50,18 @@ Output: 0
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 42.5 MB (beats 35.55%)  
-**Submitted:** 2026-09-03T04:21:05.639Z  
+**Memory:** 42.6 MB (beats 17.06%)  
+**Submitted:** 2026-09-03T04:23:15.586Z  
 
 ```java
 class Solution {
     public int trailingZeroes(int n) {
-        int zeros = 0, 
-        div = 5;
-        while (n >= div) {
-         zeros += (n / div);
-         div *= 5;
+        int ans = 0; 
+        while (n >=5) {
+         n/=5;
+         ans+=n;
      }
-    return zeros;
+    return ans;
    }
 }
 ```
