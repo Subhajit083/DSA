@@ -57,22 +57,14 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T16:31:18.805Z  
+**Submitted:** 2026-09-30T16:32:33.529Z  
 
 ```java
-/******************************************************************************
-
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
 import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-class Main
+class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -83,9 +75,9 @@ class Main
 		H=sc.nextInt();
 		C=sc.nextInt();
 		int max=B/2;
-		int totalFilling=(H+C);
+		int totalFilling=H+C;
 		int ans=0;
-		if(max<totalFilling ||totalFilling<=0){
+		if(max<totalFilling || totalFilling<=0){
 		    ans=max;
 		}
 		else{
